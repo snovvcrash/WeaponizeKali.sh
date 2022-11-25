@@ -1,0 +1,72 @@
+[
+	{
+		"Name": "Discover-PSMSExchangeServers",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/PyroTek3/PowerShell-AD-Recon/raw/master/Discover-PSMSExchangeServers"
+	},
+	{
+		"Name": "Discover-PSMSSQLServers",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/PyroTek3/PowerShell-AD-Recon/raw/master/Discover-PSMSSQLServers"
+	},
+	{
+		"Name": "Invoke-BadPotato.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/PowerSharpBinaries/Invoke-BadPotato.ps1"
+	},
+	{
+		"Name": "Invoke-Kerberoast.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/BC-SECURITY/Empire/raw/master/empire/server/data/module_source/credentials/Invoke-Kerberoast.ps1"
+	},
+	{
+		"Name": "Invoke-Mimikatz.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/BC-SECURITY/Empire/raw/master/empire/server/data/module_source/credentials/Invoke-Mimikatz.ps1"
+	},
+	{
+		"Name": "Invoke-Portscan.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/PowerShellMafia/PowerSploit/raw/master/Recon/Invoke-Portscan.ps1"
+	},
+	{
+		"Name": "Invoke-Rubeus.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/PowerSharpBinaries/Invoke-Rubeus.ps1"
+	},
+	{
+		"Name": "Invoke-RunasCs.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/antonioCoco/RunasCs/raw/master/Invoke-RunasCs.ps1"
+	},
+	{
+		"Name": "Invoke-Seatbelt.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/PowerSharpBinaries/Invoke-Seatbelt.ps1"
+	},
+	{
+		"Name": "Invoke-SharpDPAPI.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/PowerSharpBinaries/Invoke-SharpDPAPI.ps1"
+	},
+	{
+		"Name": "Powermad.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/Kevin-Robertson/Powermad/raw/master/Powermad.ps1"
+	},
+	{
+		"Name": "PowerView4.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/ZeroDayLab/PowerSploit/raw/master/Recon/PowerView.ps1"
+	},
+	{
+		"Name": "PrivescCheck.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/itm4n/PrivescCheck/raw/master/PrivescCheck.ps1"
+	},
+	{
+		"Name": "SharpHound.ps1",
+		"Type": "WebDownloadSimple",
+		"URL":  "https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.ps1"
+	}
+]

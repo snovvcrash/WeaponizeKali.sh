@@ -1,0 +1,33 @@
+# AD
+
+- [ ] LLMNR / NBNS
+- [ ] DHCPv6 Spoofing
+- [ ] ARP Cache Poisoning
+- [ ] SNACs Abuse
+- [ ] MS08-067 (net_api)
+- [ ] MS17-010 (EternalBlue)
+- [ ] PrintNightmare
+- [ ] Zerologon
+- [ ] sAMAccountName Spoofing (noPac)
+- [ ] dNSHostName Spoofing (Certifried)
+- [ ] Null Sessions on DCs
+- [ ] PetitPotam (Unauthenticated)
+- [ ] NTLMv1 Downgrade
+- [ ] AD CS ESC1
+- [ ] AD CS ESC8
+- [ ] Authentication Coercion on DCs
+- [ ] Authentication Coercion on SQLs (try to relay as admin)
+- [ ] ms-DS-MachineAccountQuota > 0
+- [ ] ADIDNS Wildcard Injection
+- [ ] Excessive Domain Object Privileges
+- [ ] PowerShell Hardening (Terminals)
+- [ ] Password Policy
+- [ ] Weak Passwords (Domain, SSH, etc.)
+- [ ] NTDS.dit Reverse Encryption
+- [ ] Kerberoasting
+- [ ] LSASS Dump
+- [ ] LAPS
+- [ ] SMB Signing (Clients, Servers)
+- [ ] LDAP Signing & LDAPS Channel Binding
+- [ ] WebClient (Clients, Servers)
+- [ ] WSUS HTTP

