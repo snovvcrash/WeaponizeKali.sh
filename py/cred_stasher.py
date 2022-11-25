@@ -21,7 +21,7 @@ class Stasher:
 
 		self.emoji_shortcodes = None
 		if emoji:
-			self.emoji_shortcodes = requests.get('https://gist.github.com/snovvcrash/b9b0f717bbd36d420d79899fc55c4c88/raw/603def33e50d3f23807170ee2ca2069d89967adb/emoji_shortcodes.txt').text.splitlines()
+			self.emoji_shortcodes = requests.get('https://raw.githubusercontent.com/snovvcrash/WeaponizeKali.sh/main/misc/emoji_shortcodes.txt').text.splitlines()
 
 		if type(usernames) is not list:
 			with open(usernames, 'r', encoding='utf-8') as f:
