@@ -1216,6 +1216,13 @@ odat() {
 	_popd
 }
 
+orpheus() {
+	_pushd tools
+	progress "orpheus"
+	cloneRepository "https://github.com/trustedsec/orpheus.git"
+	_popd
+}
+
 paperify() {
 	_pushd tools
 	progress "paperify"
@@ -1668,6 +1675,7 @@ tools() {
 	ntlmv1-multi
 	nullinux
 	odat
+	orpheus
 	paperify
 	payloadGenerator
 	powerview.py
@@ -1914,6 +1922,14 @@ JuicyPotato() {
 	_pushd www
 	downloadRelease "ohpe/juicy-potato" JuicyPotato.exe juicypotato64.exe
 	downloadRelease "ivanitlearning/Juicy-Potato-x86" Juicy.Potato.x86.exe juicypotato32.exe
+	_popd
+}
+
+JuicyPotatoNG() {
+	_pushd www
+	downloadRelease "antonioCoco/JuicyPotatoNG" JuicyPotatoNG.zip juicypotatong.zip
+	mv JuicyPotatoNG.exe juicypotatong.exe
+	rm juicypotatong.zip
 	_popd
 }
 
@@ -2398,6 +2414,7 @@ www() {
 	Invoke-noPac
 	JAWS
 	JuicyPotato
+	JuicyPotatoNG
 	KSC-Console
 	KrbRelay
 	KrbRelayUp
