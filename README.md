@@ -95,7 +95,7 @@ optional arguments:
 Install the laster version of [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) using `rbenv`:
 
 ```console
-~$ zsh <(curl -sSL https://github.com/snovvcrash/WeaponizeKali.sh/raw/sh/misc/evil-winrm.sh)
+~$ zsh <(curl -sSL https://github.com/snovvcrash/WeaponizeKali.sh/raw/main/sh/evil-winrm.sh)
 ```
 
 ### PowerShellArmoury
@@ -105,7 +105,7 @@ Create armored `.ps1` scripts containing all the PowerShell tools you want with 
 ```powershell
 PS > git clone https://github.com/cfalta/PowerShellArmoury
 PS > cd PowerShellArmoury
-PS > curl https://github.com/snovvcrash/WeaponizeKali.sh/raw/main/misc/PSArmoury.json -o PSArmoury.json
+PS > curl https://github.com/snovvcrash/WeaponizeKali.sh/raw/main/conf/PSArmoury.json -o PSArmoury.json
 PS > . .\New-PSArmoury.ps1
 PS > New-PSArmoury -ValidateOnly -Config PSArmoury.json
 PS > New-PSArmoury -Path armored.ps1 -Config PSArmoury.json
@@ -319,7 +319,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [PEASS](https://github.com/carlospolop/PEASS-ng/releases)
 - [x] [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools)
 - [x] [PingCastle](https://github.com/vletoux/pingcastle/releases)
-- [x] [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) · [PSArmoury.json](https://github.com/snovvcrash/WeaponizeKali.sh/blob/main/misc/PSArmoury.json)
+- [x] [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury) · [PSArmoury.json](https://github.com/snovvcrash/WeaponizeKali.sh/blob/main/conf/PSArmoury.json)
 - [x] [PowerUp.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1)
 - [x] [PowerUpSQL.ps1](https://github.com/NetSPI/PowerUpSQL/blob/master/PowerUpSQL.ps1)
 - [x] [PowerView2.ps1](https://github.com/PowerShellEmpire/PowerTools/blob/master/PowerView/powerview.ps1)
