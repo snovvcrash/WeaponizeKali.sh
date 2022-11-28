@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/118635530/202931239-3fd678d5-69a6-416c-acc3-5cf09cc9b256.png" alt="banner" />
 </p>
 
-:exclamation: **NOT PROPERLY MAINTAINED ANYMORE.** It has become such a pain to properly maintain this repository (every new Kali release very likely breaks some dependencies for at least one of the million listed tools), so a smooth installation process is not guaranteed. Now I treat WeaponizeKali.sh not as an automation script, but as a collection of useful tools (resources) to be installed (looked up) manually.
+:radioactive::biohazard: **NOT PROPERLY MAINTAINED ANYMORE.** It has become such a pain to properly maintain this repository (every new Kali release very likely breaks some dependencies for at least one of the million listed tools), so a smooth installation process **is not guaranteed**. Now I treat WeaponizeKali.sh not as an automation script, but as a collection of useful tools (resources) to be installed (looked up) manually. :biohazard::radioactive:
 
 ---
 
