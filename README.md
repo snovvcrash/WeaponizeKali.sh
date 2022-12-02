@@ -210,6 +210,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [gateway-finder-imp](https://github.com/whitel1st/gateway-finder-imp)
 - [x] [go-windapsearch](https://github.com/ropnop/go-windapsearch)
 - [x] [gobuster](https://github.com/OJ/gobuster/releases)
+- [x] [goshs](https://github.com/patrickhener/goshs/releases)
 - [x] [hashcat-utils](https://github.com/hashcat/hashcat-utils)
 - [x] [hoaxshell](https://github.com/t3l3machus/hoaxshell)
 - [x] [http-server](https://github.com/http-party/http-server)

@@ -954,6 +954,14 @@ gobuster() {
 	installDebPackage "gobuster"
 }
 
+goshs() {
+	_pushd tools
+	progress "goshs"
+	mkdir goshs
+	eget -qs linux/amd64 "patrickhener/goshs" --to goshs
+	_popd
+}
+
 hashcat-utils() {
 	_pushd tools
 	progress "hashcat-utils"
@@ -1644,6 +1652,7 @@ tools() {
 	gitjacker
 	go-windapsearch
 	gobuster
+	goshs
 	hashcat-utils
 	hoaxshell
 	http-server
