@@ -215,7 +215,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [hoaxshell](https://github.com/t3l3machus/hoaxshell)
 - [x] [http-server](https://github.com/http-party/http-server)
 - [x] [httpx](https://github.com/projectdiscovery/httpx/releases)
-- [x] [impacket](https://github.com/SecureAuthCorp/impacket) · [impacket-snovvcrash](https://github.com/snovvcrash/impacket)
+- [x] [impacket](https://github.com/SecureAuthCorp/impacket) · [impacket-ThePorgs](https://github.com/ThePorgs/impacket)
 - [x] [iCULeak.py](https://github.com/llt4l/iCULeak.py)
 - [x] [ipmitool](https://github.com/ipmitool/ipmitool)
 - [x] [kerbrute](https://github.com/ropnop/kerbrute/releases)

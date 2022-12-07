@@ -997,12 +997,10 @@ impacket() {
 	progress "impacket"
 	pipx install -f "git+https://github.com/SecureAuthCorp/impacket.git"
 	_pushd tools
-	progress "impacket-src"
+	progress "impacket"
 	cloneRepository "https://github.com/SecureAuthCorp/impacket.git"
-	progress "impacket-ShutdownRepo"
-	cloneRepository "https://github.com/ShutdownRepo/impacket.git" impacket-ShutdownRepo
-	progress "impacket-snovvcrash"
-	cloneRepository "https://github.com/snovvcrash/impacket.git" impacket-snovvcrash
+	progress "impacket-ThePorgs"
+	cloneRepository "https://github.com/ThePorgs/impacket.git"
 	_popd
 }
 
