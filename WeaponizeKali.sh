@@ -995,10 +995,10 @@ httpx() {
 
 impacket() {
 	progress "impacket"
-	pipx install -f "git+https://github.com/SecureAuthCorp/impacket.git"
+	pipx install -f "git+https://github.com/fortra/impacket.git"
 	_pushd tools
 	progress "impacket"
-	cloneRepository "https://github.com/SecureAuthCorp/impacket.git"
+	cloneRepository "https://github.com/fortra/impacket.git"
 	progress "impacket-ThePorgs"
 	cloneRepository "https://github.com/ThePorgs/impacket.git"
 	_popd
