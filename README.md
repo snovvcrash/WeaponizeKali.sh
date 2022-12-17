@@ -45,6 +45,7 @@ If you only want to get the deliverable scripts and binaries (i.e., `www` direct
 
 ```console
 ~$ mkdir www
+~$ go install github.com/zyedidia/eget@latest
 ~$ bash <(curl -sL https://github.com/snovvcrash/WeaponizeKali.sh/raw/main/WeaponizeKali.sh) -w
 ~$ ls -la www
 ```
