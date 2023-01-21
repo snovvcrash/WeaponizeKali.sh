@@ -17,6 +17,7 @@ WeaponizeCS.sh
 - [x] [CS-Remote-OPs-BOF](https://github.com/trustedsec/CS-Remote-OPs-BOF)
 - [x] [CS-Situational-Awareness-BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
 - [x] [Chisel-Strike](https://github.com/m3rcer/Chisel-Strike)
+- [x] [CobaltWhispers](https://github.com/NVISOsecurity/CobaltWhispers)
 - [x] [DelegationBOF](https://github.com/IcebreakerSecurity/DelegationBOF)
 - [x] [ExecuteAssembly](https://github.com/med0x2e/ExecuteAssembly)
 - [x] [FindObjects-BOF](https://github.com/outflanknl/FindObjects-BOF)
@@ -26,7 +27,9 @@ WeaponizeCS.sh
 - [x] [LdapSignCheck](https://github.com/cube0x0/LdapSignCheck/tree/main/BofLdapSignCheck)
 - [x] [PersistBOF](https://github.com/IcebreakerSecurity/PersistBOF)
 - [x] [PortBender](https://github.com/praetorian-inc/PortBender)
+- [x] [Quser-BOF](https://github.com/netero1010/Quser-BOF)
 - [x] [RdpThief](https://github.com/0x09AL/RdpThief)
+- [x] [ScreenshotBOF](https://github.com/CodeXTF2/ScreenshotBOF)
 - [x] [SyscallPack](https://github.com/cube0x0/SyscallPack)
 - [x] [SysmonQuiet](https://github.com/ScriptIdiot/SysmonQuiet)
 - [x] [cs-token-vault](https://github.com/Henkru/cs-token-vault)
@@ -54,4 +57,5 @@ WeaponizeCS.sh
 
 - [Cobalt Strike Community Kit](https://cobalt-strike.github.io/community_kit/)
 - [CobaltStrike_BOF_Collections](https://github.com/wsummerhill/CobaltStrike_BOF_Collections)
+- [BOF_Collection](https://github.com/rvrsh3ll/BOF_Collection)
 - [RedWarden](https://github.com/mgeeky/RedWarden)

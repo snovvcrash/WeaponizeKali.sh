@@ -1549,14 +1549,14 @@ xc() {
 	_pushd tools
 	progress "xc"
 	cloneRepository "https://github.com/xct/xc.git"
-	cd xc
-	GO111MODULE=off go get golang.org/x/sys/...
-	GO111MODULE=off go get golang.org/x/text/encoding/unicode
-	GO111MODULE=off go get github.com/hashicorp/yamux
-	installDebPackage "rlwrap upx"
-	python3 build.py
-	chmod -x xc xc.exe
-	cp xc xc.exe ../../www
+	#cd xc
+	#GO111MODULE=off go get golang.org/x/sys/...
+	#GO111MODULE=off go get golang.org/x/text/encoding/unicode
+	#GO111MODULE=off go get github.com/hashicorp/yamux
+	#installDebPackage "rlwrap upx"
+	#python3 build.py
+	#chmod -x xc xc.exe
+	#cp xc xc.exe ../../www
 	_popd
 }
 
@@ -1866,6 +1866,12 @@ Invoke-ConPtyShell() {
 Invoke-ImpersonateUser-PTH() {
 	_pushd www
 	downloadRawFile "https://github.com/S3cur3Th1sSh1t/NamedPipePTH/raw/main/Invoke-ImpersonateUser-PTH.ps1" invoke-impersonateuser-pth.ps1
+	_popd
+}
+
+Invoke-Locksmith() {
+	_pushd www
+	downloadRawFile "https://github.com/TrimarcJake/Locksmith/raw/main/Invoke-Locksmith.ps1" invoke-locksmith.ps1
 	_popd
 }
 

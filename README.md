@@ -227,6 +227,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [ldapsearch-ad](https://github.com/yaap7/ldapsearch-ad)
 - [x] [ldeep](https://github.com/franc-pentest/ldeep)
 - [x] [ligolo-proxy](https://github.com/tnpitsecurity/ligolo-ng)
+- [ ] [linWinPwn](https://github.com/lefayjey/linWinPwn)
 - [x] [lsassy](https://github.com/Hackndo/lsassy)
 - [x] [mapcidr](https://github.com/projectdiscovery/mapcidr)
 - [x] [masscan](https://github.com/robertdavidgraham/masscan)
@@ -278,7 +279,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [wesng](https://github.com/bitsadmin/wesng)
 - [x] [windapsearch](https://github.com/ropnop/windapsearch)
 - [x] [wmiexec-RegOut](https://github.com/XiaoliChan/wmiexec-RegOut)
-- [ ] [xc](https://github.com/xct/xc)
+- [x] [xc](https://github.com/xct/xc)
 - [x] [yersina](https://github.com/tomac/yersinia)
 
 ### `www/`
@@ -303,6 +304,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [Invoke-ACLPwn.ps1](https://github.com/fox-it/Invoke-ACLPwn/blob/master/Invoke-ACLPwn.ps1)
 - [x] [Invoke-ConPtyShell.ps1](https://github.com/antonioCoco/ConPtyShell/blob/master/Invoke-ConPtyShell.ps1)
 - [x] [Invoke-ImpersonateUser-PTH.ps1](https://github.com/S3cur3Th1sSh1t/NamedPipePTH/blob/main/Invoke-ImpersonateUser-PTH.ps1)
+- [x] [Invoke-Locksmith.ps1](https://github.com/TrimarcJake/Locksmith/blob/main/Invoke-Locksmith.ps1)
 - [x] [Invoke-PSInject.ps1](https://github.com/EmpireProject/PSInject/blob/master/Invoke-PSInject.ps1)
 - [x] [Invoke-Portscan.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/Invoke-Portscan.ps1)
 - [x] [Invoke-RunasCs.ps1](https://github.com/antonioCoco/RunasCs/blob/master/Invoke-RunasCs.ps1)

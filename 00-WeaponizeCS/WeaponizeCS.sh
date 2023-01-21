@@ -206,6 +206,13 @@ Chisel-Strike() {
 	_popd
 }
 
+CobaltWhispers() {
+	_pushd Scripts
+	progress "CobaltWhispers"
+	cloneRepository "https://github.com/NVISOsecurity/CobaltWhispers.git"
+	_popd
+}
+
 DelegationBOF() {
 	_pushd Scripts
 	progress "DelegationBOF"
@@ -275,10 +282,24 @@ PortBender() {
 	_popd
 }
 
+Quser-BOF() {
+	_pushd Scripts
+	progress "Quser-BOF"
+	cloneRepository "https://github.com/netero1010/Quser-BOF.git"
+	_popd
+}
+
 RdpThief() {
 	_pushd Scripts
 	progress "RdpThief"
 	cloneRepository "https://github.com/0x09AL/RdpThief.git"
+	_popd
+}
+
+ScreenshotBOF() {
+	_pushd Scripts
+	progress "ScreenshotBOF"
+	cloneRepository "https://github.com/CodeXTF2/ScreenshotBOF.git"
 	_popd
 }
 
