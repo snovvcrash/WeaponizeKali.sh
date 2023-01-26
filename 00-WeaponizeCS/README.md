@@ -22,6 +22,7 @@ WeaponizeCS.sh
 - [x] [ExecuteAssembly](https://github.com/med0x2e/ExecuteAssembly)
 - [x] [FindObjects-BOF](https://github.com/outflanknl/FindObjects-BOF)
 - [x] [HelpColor](https://github.com/outflanknl/HelpColor)
+- [x] [Inline-Execute-PE](https://github.com/Octoberfest7/Inline-Execute-PE)
 - [x] [InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly)
 - [x] [Invoke-CredentialPhisher](https://github.com/fox-it/Invoke-CredentialPhisher)
 - [x] [LdapSignCheck](https://github.com/cube0x0/LdapSignCheck/tree/main/BofLdapSignCheck)

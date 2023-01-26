@@ -245,6 +245,13 @@ HelpColor() {
 	_popd
 }
 
+Inline-Execute-PE() {
+	_pushd Scripts
+	progress "Inline-Execute-PE"
+	cloneRepository "https://github.com/Octoberfest7/Inline-Execute-PE.git"
+	_popd
+}
+
 InlineExecute-Assembly() {
 	_pushd Scripts
 	progress "InlineExecute-Assembly"
@@ -389,16 +396,20 @@ Scripts() {
 	CS-Remote-OPs-BOF
 	CS-Situational-Awareness-BOF
 	Chisel-Strike
+	CobaltWhispers
 	DelegationBOF
 	ExecuteAssembly
 	FindObjects-BOF
 	HelpColor
+	Inline-Execute-PE
 	InlineExecute-Assembly
 	Invoke-CredentialPhisher
 	LdapSignCheck
 	PersistBOF
 	PortBender
+	Quser-BOF
 	RdpThief
+	ScreenshotBOF
 	SyscallPack
 	cs-token-vault
 	freeBokuLoader
