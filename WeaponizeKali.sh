@@ -636,6 +636,17 @@ ScareCrow() {
 	_popd
 }
 
+SeeYouCM-Thief() {
+	_pushd tools
+	progress "SeeYouCM-Thief"
+	cloneRepository "https://github.com/trustedsec/SeeYouCM-Thief.git"
+	cd SeeYouCM-Thief
+	python3 -m pip install -U -r requirements.txt
+	downloadRawFile "https://github.com/n00py/CUCMe/raw/main/cucme.sh" cucme.sh
+	chmod +x cucme.sh
+	_popd
+}
+
 ShadowCoerce() {
 	_pushd tools
 	progress "ShadowCoerce"
@@ -1610,6 +1621,7 @@ tools() {
 	RustScan
 	SCShell
 	ScareCrow
+	SeeYouCM-Thief
 	ShadowCoerce
 	SharpGen
 	ShellPop
@@ -1941,6 +1953,7 @@ JuicyPotato() {
 JuicyPotatoNG() {
 	_pushd www
 	downloadRelease "antonioCoco/JuicyPotatoNG" JuicyPotatoNG.zip juicypotatong.zip
+	unzip -q juicypotatong.zip
 	mv JuicyPotatoNG.exe juicypotatong.exe
 	rm juicypotatong.zip
 	_popd

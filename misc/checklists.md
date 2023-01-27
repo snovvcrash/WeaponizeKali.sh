@@ -4,8 +4,10 @@
 - [ ] DHCPv6 Spoofing
 - [ ] ARP Cache Poisoning
 - [ ] SNACs Abuse
+- [ ] Cisco IP Phones (User Enumeration & Credential Leak)
 - [ ] MS08-067 (net_api)
 - [ ] MS17-010 (EternalBlue)
+- [ ] CVE-2019-0708 (BlueKeep)
 - [ ] PrintNightmare
 - [ ] Zerologon
 - [ ] sAMAccountName Spoofing (noPac)
