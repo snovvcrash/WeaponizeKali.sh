@@ -195,6 +195,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [bloodhound-quickwin](https://github.com/kaluche/bloodhound-quickwin)
 - [x] [bloodyAD](https://github.com/CravateRouge/bloodyAD)
 - [x] [certi](https://github.com/zer1t0/certi)
+- [x] [certsync](https://github.com/zblurx/certsync)
 - [x] [chisel](https://github.com/jpillora/chisel/releases) · [SharpChisel](https://github.com/shantanu561993/SharpChisel) · [EXE](https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/SharpChisel.exe)
 - [x] [cliws](https://github.com/b23r0/cliws/releases)
 - [x] [crowbar](https://github.com/galkan/crowbar)

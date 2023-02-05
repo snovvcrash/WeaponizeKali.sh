@@ -64,3 +64,5 @@ WeaponizeBurp.md
 - [SHELLING](https://github.com/ewilded/shelling)
 - [Burp Vulners Scanner](https://github.com/vulnersCom/burp-vulners-scanner)
 - [HackBar](https://github.com/d3vilbug/HackBar)
+- [burp-send-to](https://github.com/bytebutcher/burp-send-to)
+- [BurpSuiteSharpener](https://github.com/mdsecresearch/BurpSuiteSharpener)

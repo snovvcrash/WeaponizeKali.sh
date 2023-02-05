@@ -827,6 +827,11 @@ certi() {
 	pipx install -f "git+https://github.com/zer1t0/certi.git"
 }
 
+certsync() {
+	progress "certsync"
+	pipx install -f "git+https://github.com/zblurx/certsync.git"
+}
+
 chisel-server() {
 	_pushd tools
 	progress "chisel"
@@ -1644,6 +1649,7 @@ tools() {
 	bloodhound-quickwin
 	bloodyAD
 	certi
+	certsync
 	chisel-server
 	cliws-server
 	crowbar

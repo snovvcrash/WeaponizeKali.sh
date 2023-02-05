@@ -1,10 +1,11 @@
 # AD
 
+- [ ] Sniff Traffic
 - [ ] LLMNR / NBNS
 - [ ] DHCPv6 Spoofing
 - [ ] ARP Cache Poisoning
 - [ ] SNACs Abuse
-- [ ] Cisco IP Phones (User Enumeration & Credential Leak)
+- [ ] Cisco IP Phones (user enumeration & credential leak)
 - [ ] MS08-067 (net_api)
 - [ ] MS17-010 (EternalBlue)
 - [ ] CVE-2019-0708 (BlueKeep)
@@ -13,7 +14,7 @@
 - [ ] sAMAccountName Spoofing (noPac)
 - [ ] dNSHostName Spoofing (Certifried)
 - [ ] Null Sessions on DCs
-- [ ] PetitPotam (Unauthenticated)
+- [ ] PetitPotam (unauthenticated)
 - [ ] NTLMv1 Downgrade
 - [ ] AD CS ESC1
 - [ ] AD CS ESC8
@@ -22,14 +23,16 @@
 - [ ] ms-DS-MachineAccountQuota > 0
 - [ ] ADIDNS Wildcard Injection
 - [ ] Excessive Domain Object Privileges
-- [ ] PowerShell Hardening (Terminals)
+- [ ] PowerShell Hardening (terminals)
 - [ ] Password Policy
-- [ ] Weak Passwords (Domain, SSH, etc.)
+- [ ] Weak Passwords (AD, SSH, 3rd-party apps, etc.)
+- [ ] Passwords in LDAP (e.g., in the `description` attribute)
+- [ ] Plaintext Storage of Passwords (text files, MS Office docs, etc.)
 - [ ] NTDS.dit Reverse Encryption
 - [ ] Kerberoasting
 - [ ] LSASS Dump
 - [ ] LAPS
-- [ ] SMB Signing (Clients, Servers)
+- [ ] SMB Signing (clients, servers)
 - [ ] LDAP Signing & LDAPS Channel Binding
-- [ ] WebClient (Clients, Servers)
+- [ ] WebClient (clients, servers)
 - [ ] WSUS HTTP
