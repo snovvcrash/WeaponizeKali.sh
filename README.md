@@ -249,6 +249,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [paperify](https://github.com/alisinabh/paperify)
 - [x] [payloadGenerator](https://github.com/smokeme/payloadGenerator)
 - [x] [powerview.py](https://github.com/aniqfakhrul/powerview.py)
+- [x] [pre2k](https://github.com/garrettfoster13/pre2k)
 - [x] [pretender](https://github.com/RedTeamPentesting/pretender/releases)
 - [x] [pywsus](https://github.com/GoSecure/pywsus)
 - [x] [pyGPOAbuse](https://github.com/Hackndo/pyGPOAbuse)

@@ -1271,6 +1271,11 @@ powerview.py() {
 	_popd
 }
 
+pre2k() {
+	progress "pre2k"
+	pipx install -f "git+https://github.com/garrettfoster13/pre2k.git"
+}
+
 pretender-tools() {
 	_pushd tools
 	progress "pretender"
@@ -1704,6 +1709,7 @@ tools() {
 	paperify
 	payloadGenerator
 	powerview.py
+	pre2k
 	pretender-tools
 	py
 	pywsus
