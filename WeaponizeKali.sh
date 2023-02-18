@@ -1215,6 +1215,17 @@ ntlmv1-multi() {
 	_popd
 }
 
+nuclei() {
+	_pushd tools
+	progress "nuclei"
+	mkdir nuclei
+	eget -qs linux/amd64 "projectdiscovery/nuclei" --to nuclei
+	./nuclei
+	downloadRawFile "https://github.com/DingyShark/nuclei-scan-sort/raw/main/nuclei_sort.py" nuclei_sort.py
+	sed -i '1 i #!/usr/bin/env python3' nuclei_sort.py
+	_popd
+}
+
 nullinux() {
 	_pushd tools
 	progress "nullinux"
@@ -1703,6 +1714,7 @@ tools() {
 	ntlm_challenger
 	ntlm_theft
 	ntlmv1-multi
+	nuclei
 	nullinux
 	odat
 	orpheus

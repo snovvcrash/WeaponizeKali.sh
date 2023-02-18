@@ -243,6 +243,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [ntlm_challenger](https://github.com/nopfor/ntlm_challenger)
 - [x] [ntlm_theft](https://github.com/Greenwolf/ntlm_theft)
 - [x] [ntlmv1-multi](https://github.com/evilmog/ntlmv1-multi)
+- [x] [nuclei](https://github.com/projectdiscovery/nuclei/releases)  · [nuclei-scan-sort](https://github.com/DingyShark/nuclei-scan-sort)
 - [x] [nullinux](https://github.com/m8r0wn/nullinux)
 - [x] [odat](https://github.com/quentinhardy/odat)
 - [x] [orpheus](https://github.com/trustedsec/orpheus)
