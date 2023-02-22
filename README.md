@@ -216,7 +216,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [goshs](https://github.com/patrickhener/goshs/releases)
 - [x] [hashcat-utils](https://github.com/hashcat/hashcat-utils)
 - [x] [hoaxshell](https://github.com/t3l3machus/hoaxshell)
-- [x] [http-server](https://github.com/http-party/http-server)
+- [ ] [http-server](https://github.com/http-party/http-server)
 - [x] [httpx](https://github.com/projectdiscovery/httpx/releases)
 - [x] [impacket](https://github.com/fortra/impacket) · [impacket-ThePorgs](https://github.com/ThePorgs/impacket)
 - [x] [iCULeak.py](https://github.com/llt4l/iCULeak.py)

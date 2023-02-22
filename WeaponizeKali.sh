@@ -1687,7 +1687,7 @@ tools() {
 	goshs
 	hashcat-utils
 	hoaxshell
-	http-server
+	#http-server
 	httpx
 	impacket
 	ipmitool
