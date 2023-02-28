@@ -57,6 +57,7 @@ WeaponizeCS.sh
 ## Resources, Collections & Stuff
 
 - [Cobalt Strike Community Kit](https://cobalt-strike.github.io/community_kit/)
-- [CobaltStrike_BOF_Collections](https://github.com/wsummerhill/CobaltStrike_BOF_Collections)
-- [BOF_Collection](https://github.com/rvrsh3ll/BOF_Collection)
-- [RedWarden](https://github.com/mgeeky/RedWarden)
+- [wsummerhill / CobaltStrike_BOF_Collections](https://github.com/wsummerhill/CobaltStrike_BOF_Collections)
+- [rvrsh3ll / BOF_Collection](https://github.com/rvrsh3ll/BOF_Collection)
+- [N7WEra / BofAllTheThings](https://github.com/N7WEra/BofAllTheThings)
+- [mgeeky / RedWarden](https://github.com/mgeeky/RedWarden)

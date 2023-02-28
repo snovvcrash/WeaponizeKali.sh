@@ -893,6 +893,11 @@ donut() {
 	_popd
 }
 
+dploot() {
+	progress "dploot"
+	pipx install -f "git+https://github.com/zblurx/dploot.git"
+}
+
 dsniff() {
 	progress "dsniff"
 	#sudo sysctl -w net.ipv4.ip_forward=1
@@ -1414,6 +1419,13 @@ seclists() {
 	installDebPackage "seclists"
 }
 
+serviceDetector() {
+	_pushd tools
+	progress "serviceDetector"
+	cloneRepository "https://github.com/tothi/serviceDetector.git"
+	_popd
+}
+
 sgn() {
 	_pushd tools
 	progress "sgn"
@@ -1673,6 +1685,7 @@ tools() {
 	dementor.py
 	dnsx
 	donut
+	dploot
 	dsniff
 	eavesarp
 	enum4linux-ng
@@ -1738,6 +1751,7 @@ tools() {
 	rtfm
 	sRDI
 	seclists
+	serviceDetector
 	sgn
 	shrunner
 	smartbrute
