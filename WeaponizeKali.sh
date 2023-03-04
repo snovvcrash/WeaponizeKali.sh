@@ -874,14 +874,6 @@ dementor.py() {
 	_popd
 }
 
-dnsx() {
-	_pushd tools
-	progress "dnsx"
-	mkdir dnsx
-	eget -qs linux/amd64 "projectdiscovery/dnsx" --to dnsx
-	_popd
-}
-
 donut() {
 	_pushd tools
 	progress "donut"
@@ -1006,14 +998,6 @@ http-server() {
 	sudo npm install -g http-server
 }
 
-httpx() {
-	_pushd tools
-	progress "httpx"
-	mkdir httpx
-	eget -qs linux/amd64 "projectdiscovery/httpx" --to httpx
-	_popd
-}
-
 impacket() {
 	progress "impacket"
 	pipx install -f "git+https://github.com/fortra/impacket.git"
@@ -1116,14 +1100,6 @@ lsassy() {
 	pipx install -f "git+https://github.com/Hackndo/lsassy.git"
 }
 
-mapcidr() {
-	_pushd tools
-	progress "mapcidr"
-	mkdir mapcidr
-	eget -qs linux/amd64 "projectdiscovery/mapcidr" --to mapcidr
-	_popd
-}
-
 masscan() {
 	_pushd tools
 	progress "masscan"
@@ -1220,17 +1196,6 @@ ntlmv1-multi() {
 	_popd
 }
 
-nuclei() {
-	_pushd tools
-	progress "nuclei"
-	mkdir nuclei
-	eget -qs linux/amd64 "projectdiscovery/nuclei" --to nuclei
-	./nuclei
-	downloadRawFile "https://github.com/DingyShark/nuclei-scan-sort/raw/main/nuclei_sort.py" nuclei_sort.py
-	sed -i '1 i #!/usr/bin/env python3' nuclei_sort.py
-	_popd
-}
-
 nullinux() {
 	_pushd tools
 	progress "nullinux"
@@ -1275,6 +1240,20 @@ payloadGenerator() {
 	_pushd tools
 	progress "payloadGenerator"
 	cloneRepository "https://github.com/smokeme/payloadGenerator.git"
+	_popd
+}
+
+pdtm() {
+	_pushd tools
+	progress "pdtm"
+	mkdir pd
+	eget -qs linux/amd64 "projectdiscovery/pdtm" --to pd
+	cd pd
+	./pdtm -ia -nsp -bp `pwd`
+	./nuclei
+	downloadRawFile "https://github.com/DingyShark/nuclei-scan-sort/raw/main/nuclei_sort.py" nuclei_sort.py
+	sed -i '1 i #!/usr/bin/env python3' nuclei_sort.py
+	chmod +x nuclei_sort.py
 	_popd
 }
 
@@ -1683,7 +1662,6 @@ tools() {
 	crowbar
 	cypherhound
 	dementor.py
-	dnsx
 	donut
 	dploot
 	dsniff
@@ -1701,7 +1679,6 @@ tools() {
 	hashcat-utils
 	hoaxshell
 	#http-server
-	httpx
 	impacket
 	ipmitool
 	iCULeak.py
@@ -1714,7 +1691,6 @@ tools() {
 	ldeep
 	ligolo-ng-proxy
 	lsassy
-	mapcidr
 	masscan
 	mitm6
 	mscache
@@ -1727,12 +1703,12 @@ tools() {
 	ntlm_challenger
 	ntlm_theft
 	ntlmv1-multi
-	nuclei
 	nullinux
 	odat
 	orpheus
 	paperify
 	payloadGenerator
+	pdtm
 	powerview.py
 	pre2k
 	pretender-tools
