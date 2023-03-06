@@ -94,7 +94,7 @@ installPipPackage() {
 	pkg_name=$2
 	if ! which $pkg_name > /dev/null 2>&1; then
 		warning "$pkg_name not found, installing with pip$V"
-		sudo "python${V}" -m pip install -U $pkg_name
+		sudo "python${V}" -m pipx install -U $pkg_name
 	fi
 	success "Installed pip$V package(s): $pkg_name"
 }
@@ -302,7 +302,7 @@ CVE-2020-1472-checker() {
 	cloneRepository "https://github.com/SecuraBV/CVE-2020-1472.git"
 	mv CVE-2020-1472 CVE-2020-1472-checker
 	cd CVE-2020-1472-checker
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x zerologon_tester.py
 	_popd
 }
@@ -368,7 +368,7 @@ DonPAPI() {
 	progress "DonPAPI"
 	cloneRepository "https://github.com/login-securite/DonPAPI.git"
 	cd DonPAPI
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x DonPAPI.py
 	_popd
 }
@@ -406,7 +406,7 @@ GetFGPP() {
 	progress "GetFGPP"
 	cloneRepository "https://github.com/n00py/GetFGPP.git"
 	cd GetFGPP
-	python3 -m pip install -U python-dateutil
+	python3 -m pipx install -U python-dateutil
 	_popd
 }
 
@@ -433,7 +433,7 @@ LDAPPER() {
 	progress "LDAPPER"
 	cloneRepository "https://github.com/shellster/LDAPPER.git"
 	cd LDAPPER
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -442,7 +442,7 @@ LDAPmonitor() {
 	progress "LDAPmonitor"
 	cloneRepository "https://github.com/p0dalirius/LDAPmonitor.git"
 	cd LDAPmonitor/python
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x pyLDAPmonitor.py
 	_popd
 }
@@ -484,7 +484,7 @@ Max() {
 	progress "Max"
 	cloneRepository "https://github.com/knavesec/Max.git"
 	cd Max
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -538,8 +538,8 @@ PCredz() {
 		_pushd tools
 		installDebPackage "libpcap-dev"
 		cloneRepository "https://github.com/lgandx/PCredz.git"
-		python3 -m pip install -U Cython
-		python3 -m pip install -U python-libpcap
+		python3 -m pipx install -U Cython
+		python3 -m pipx install -U python-libpcap
 		_popd
 	fi
 }
@@ -558,7 +558,7 @@ PKINITtools() {
 	_pushd tools
 	progress "PKINITtools"
 	cloneRepository "https://github.com/dirkjanm/PKINITtools.git"
-	python3 -m pip install -U minikerberos
+	python3 -m pipx install -U minikerberos
 	cd PKINITtools
 	chmod +x getnthash.py gets4uticket.py gettgtpkinit.py
 	_popd
@@ -641,7 +641,7 @@ SeeYouCM-Thief() {
 	progress "SeeYouCM-Thief"
 	cloneRepository "https://github.com/trustedsec/SeeYouCM-Thief.git"
 	cd SeeYouCM-Thief
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	downloadRawFile "https://github.com/n00py/CUCMe/raw/main/cucme.sh" cucme.sh
 	chmod +x cucme.sh
 	_popd
@@ -685,7 +685,7 @@ SilentHound() {
 	progress "SilentHound"
 	cloneRepository "https://github.com/snovvcrash/SilentHound.git"
 	cd SilentHound
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -699,7 +699,7 @@ TrustVisualizer() {
 	progress "TrustVisualizer"
 	cloneRepository "https://github.com/snovvcrash/TrustVisualizer.git"
 	cd TrustVisualizer
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -708,7 +708,7 @@ Villain() {
 	progress "Villain"
 	cloneRepository "https://github.com/t3l3machus/Villain.git"
 	cd Villain
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x Villain.py
 	_popd
 }
@@ -723,7 +723,7 @@ Windows-Exploit-Suggester() {
 	progress "Windows-Exploit-Suggester"
 	cloneRepository "https://github.com/a1ext/Windows-Exploit-Suggester.git"
 	cd Windows-Exploit-Suggester
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -737,7 +737,7 @@ aced() {
 	progress "aced"
 	cloneRepository "https://github.com/garrettfoster13/aced.git"
 	cd aced
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -781,7 +781,7 @@ arsenal() {
 	progress "arsenal"
 	cloneRepository "https://github.com/Orange-Cyberdefense/arsenal.git"
 	cd arsenal
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x run
 	_popd
 }
@@ -809,7 +809,7 @@ bloodhound-quickwin() {
 	progress "bloodhound-quickwin"
 	cloneRepository "https://github.com/kaluche/bloodhound-quickwin.git"
 	cd bloodhound-quickwin
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -818,7 +818,7 @@ bloodyAD() {
 	progress "bloodyAD"
 	cloneRepository "https://github.com/CravateRouge/bloodyAD.git"
 	cd bloodyAD
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -861,7 +861,7 @@ cypherhound() {
 	progress "cypherhound"
 	cloneRepository "https://github.com/fin3ss3g0d/cypherhound.git"
 	cd cypherhound
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -902,7 +902,7 @@ eavesarp() {
 	progress "eavesarp"
 	cloneRepository "https://github.com/arch4ngel/eavesarp.git"
 	cd eavesarp
-	sudo python3 -m pip install -U -r requirements.txt
+	sudo python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -948,7 +948,7 @@ gateway-finder-imp() {
 	progress "gateway-finder-imp"
 	cloneRepository "https://github.com/whitel1st/gateway-finder-imp.git"
 	cd gateway-finder-imp
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -989,7 +989,7 @@ hoaxshell() {
 	progress "hoaxshell"
 	cloneRepository "https://github.com/t3l3machus/hoaxshell.git"
 	cd hoaxshell
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1014,7 +1014,7 @@ iCULeak.py() {
 	progress "iCULeak.py"
 	cloneRepository "https://github.com/llt4l/iCULeak.py.git"
 	cd iCULeak.py
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	chmod +x iCULeak.py
 	_popd
 }
@@ -1048,7 +1048,7 @@ ldap_shell() {
 	progress "ldap_shell"
 	cloneRepository "https://github.com/PShlyundin/ldap_shell.git"
 	cd ldap_shell
-	python3 -m pip install .
+	python3 -m pipx install .
 	_popd
 }
 
@@ -1075,7 +1075,7 @@ ldapsearch-ad() {
 	progress "ldapsearch-ad"
 	cloneRepository "https://github.com/yaap7/ldapsearch-ad.git"
 	cd ldapsearch-ad
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1176,7 +1176,7 @@ ntlm_challenger() {
 	progress "ntlm_challenger"
 	cloneRepository "https://github.com/nopfor/ntlm_challenger.git"
 	cd ntlm_challenger
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1185,7 +1185,7 @@ ntlm_theft() {
 	progress "ntlm_theft"
 	cloneRepository "https://github.com/Greenwolf/ntlm_theft.git"
 	cd ntlm_theft
-	python3 -m pip install -U xlsxwriter
+	python3 -m pipx install -U xlsxwriter
 	_popd
 }
 
@@ -1262,7 +1262,7 @@ powerview.py() {
 	progress "powerview.py"
 	cloneRepository "https://github.com/aniqfakhrul/powerview.py.git"
 	cd powerview.py
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1295,7 +1295,7 @@ pywsus() {
 	progress "pywsus"
 	cloneRepository "https://github.com/GoSecure/pywsus.git"
 	cd pywsus
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1304,8 +1304,8 @@ pyGPOAbuse() {
 	progress "pyGPOAbuse"
 	cloneRepository "https://github.com/Hackndo/pyGPOAbuse.git"
 	cd pyGPOAbuse
-	python3 -m pip install -U -r requirements.txt
-	python3 -m pip install -U aiosmb
+	python3 -m pipx install -U -r requirements.txt
+	python3 -m pipx install -U aiosmb
 	_popd
 }
 
@@ -1329,7 +1329,7 @@ pywerview() {
 	cloneRepository "https://github.com/the-useless-one/pywerview.git"
 	cd pywerview
 	installDebPackage "libkrb5-dev"
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1338,7 +1338,7 @@ pywhisker() {
 	progress "pywhisker"
 	cloneRepository "https://github.com/ShutdownRepo/pywhisker.git"
 	cd pywhisker
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1382,7 +1382,7 @@ rtfm() {
 	cloneRepository "https://github.com/leostat/rtfm.git"
 	cd rtfm
 	./rtfm -u 2>/dev/null
-	echo 'function rtfm() { ~/tools/rtfm/rtfm.py "$@" 2>/dev/null }' >> ~/.zshrc
+	echo 'function rtfm() { ~/tools/rtfm/rtfm.py "$@" 2>/dev/null }' >> ~/.bashrc
 	_popd
 }
 
@@ -1433,7 +1433,7 @@ smartbrute() {
 	cloneRepository "https://github.com/ShutdownRepo/smartbrute.git"
 	cd smartbrute
 	rm -rf assets memes
-	python3 -m pip install .
+	python3 -m pipx install .
 	_popd
 }
 
@@ -1451,7 +1451,7 @@ spraykatz() {
 	progress "spraykatz"
 	cloneRepository "https://github.com/aas-n/spraykatz.git"
 	cd spraykatz
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1486,7 +1486,7 @@ targetedKerberoast() {
 	progress "targetedKerberoast"
 	cloneRepository "https://github.com/ShutdownRepo/targetedKerberoast.git"
 	cd targetedKerberoast
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1495,7 +1495,7 @@ ticket_converter() {
 	progress "ticket_converter"
 	cloneRepository "https://github.com/eloypgz/ticket_converter.git"
 	cd ticket_converter
-	python2 -m pip install -U -r requirements.txt
+	python2 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1529,7 +1529,7 @@ vnum() {
 	progress "vnum"
 	cloneRepository "https://github.com/Bond-o/vnum.git"
 	cd vnum
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
@@ -1557,7 +1557,7 @@ windapsearch() {
 	installDebPackage "libsasl2-dev libldap2-dev libssl-dev"
 	cloneRepository "https://github.com/ropnop/windapsearch.git"
 	cd windapsearch
-	python3 -m pip install -U -r requirements.txt
+	python3 -m pipx install -U -r requirements.txt
 	_popd
 }
 
