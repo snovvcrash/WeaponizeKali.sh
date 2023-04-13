@@ -84,7 +84,7 @@ installSnapPackage() {
 	pkg_name=$1
 	if ! /usr/bin/snap info $pkg_name 2>&1 | /bin/grep "installed" > /dev/null; then
 		warning "$pkg_name not found, installing with snap"
-		sudo snap install $pkg_name --dangerous
+		sudo snap install $pkg_name --dangerous --classic
 	fi
 	success "Installed snap package(s): $pkg_name"
 }
@@ -251,7 +251,7 @@ BloodHound() {
 	mkdir -p ~/.config/bloodhound
 
 	downloadRawFile "https://github.com/ShutdownRepo/Exegol-images/raw/main/sources/bloodhound/customqueries.json" /tmp/customqueries1.json
-	downloadRawFile "https://github.com/CompassSecurity/BloodHoundQueries/raw/master/customqueries.json" /tmp/customqueries2.json
+	downloadRawFile "https://github.com/CompassSecurity/BloodHoundQueries/raw/master/BloodHound_Custom_Queries/customqueries.json" /tmp/customqueries2.json
 	downloadRawFile "https://github.com/ZephrFish/Bloodhound-CustomQueries/raw/main/customqueries.json" /tmp/customqueries3.json
 	downloadRawFile "https://github.com/ly4k/Certipy/raw/main/customqueries.json" /tmp/customqueries4.json
 
@@ -451,6 +451,8 @@ LdapRelayScan() {
 	_pushd tools
 	progress "LdapRelayScan"
 	cloneRepository "https://github.com/zyn3rgy/LdapRelayScan.git"
+	cd LdapRelayScan
+	python3 -m pip install -U -r requirements.txt
 	_popd
 }
 
