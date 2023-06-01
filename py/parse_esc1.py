@@ -6,7 +6,7 @@ import glob
 with open(glob.glob('[0-9]*_Certipy.json')[0], 'r', encoding='utf-8-sig') as f:
 	templates = json.load(f)['Certificate Templates']
 
-print('"Template Name","Enabled","Requires Manager Approval","Dangerous roups"')
+print('"Template Name","Enabled","Requires Manager Approval","Dangerous groups"')
 
 data = []
 for templ in templates.values():
@@ -27,7 +27,7 @@ for templ in templates.values():
 				data.append([template_name, enabled, manager_approval, groups])
 				print(f'"{template_name}","{enabled}","{manager_approval}","{groups}"')
 
-header = ['Template Name', 'Enabled', 'Requires Manager Approval', 'Dangerous roups']
+header = ['Template Name', 'Enabled', 'Requires Manager Approval', 'Dangerous groups']
 with open('esc1.csv', 'w') as f:
 	writer = csv.writer(f, quoting=csv.QUOTE_ALL)
 	writer.writerow(header)
