@@ -14,6 +14,6 @@
                     "query": "MATCH p=(m:Group {domain: $result})-[r1:MemberOf*0..]->(g:Group)-[:Owns|WriteDacl|GenericAll|WriteOwner|ExecuteDCOM|GenericWrite|AllowedToDelegate|ForceChangePassword|AllExtendedRights]->(n) WHERE (m.objectid ENDS WITH '-513' OR m.objectid ENDS WITH '-515' OR m.objectid ENDS WITH '-S-1-5-11' OR m.objectid ENDS WITH '-S-1-1-0') RETURN p"
                 }
             ]
-        },
+        }
     ]
 }
