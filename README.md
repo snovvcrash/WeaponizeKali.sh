@@ -325,6 +325,7 @@ Get a random name of a `.exe` or `.dll` binary:
 - [x] [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) · [EXE](https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.7_Any/KrbRelayUp.exe)
 - [x] [LaZagne](https://github.com/AlessandroZ/LaZagne/releases)
 - [x] [OffensivePythonPipeline](https://github.com/Qazeer/OffensivePythonPipeline/tree/main/binaries)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [x] [PEASS](https://github.com/carlospolop/PEASS-ng/releases)
 - [x] [PSTools](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools)
 - [x] [PingCastle](https://github.com/vletoux/pingcastle/releases)
